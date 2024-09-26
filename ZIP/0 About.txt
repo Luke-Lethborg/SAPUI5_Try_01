@@ -1,0 +1,14 @@
+Step 3 will fail because we use
+src="resources/sap-ui-core.js"
+but this file does not exist.
+We need to use "Content Delivery Network (CDN)" 
+src="https://ui5.sap.com/resources/sap-ui-core.js"
+But future use, I will follow the defaut design and make folder 'resources' and file sap-ui-core.js
+I do not know how to download like your would JQuery, 
+  so I will use that link https://ui5.sap.com/resources/sap-ui-core.js to copy and paste.
+I will do for Step 3 but this is going to be a pain for all 38.
+  
+1] This did not work
+2] The file is not formated nicely. (Minifiend)
+3] THis file is 904 KB, almost 1 MB. 
+I will stick with https://ui5.sap.com/resources/sap-ui-core.js
